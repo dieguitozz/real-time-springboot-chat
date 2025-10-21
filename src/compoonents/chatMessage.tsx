@@ -94,7 +94,7 @@ export function ChatInterface({
                 />
                 <button
                     type="submit"
-                    className="bg-white hover:bg-white-600 text-black font-semibold py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2"
+                    className="bg-white hover:bg-gray-300 text-black font-semibold cursor-pointer py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2"
                 >
                     <span className="hidden sm:inline">Enviar</span>
                     <SendHorizontal size={18} />

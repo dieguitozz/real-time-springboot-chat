@@ -28,11 +28,11 @@ export function LoginForm({ currentText, setText, onLogin }: LoginFormProps) {
             autoComplete="off"
             value={currentText}
             onChange={(e) => setText(e.target.value)}
-            className="w-full px-4 py-3 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 bg-neutral-800 text-white placeholder-gray-400"
+            className="w-full px-4 py-3 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-white bg-neutral-800 text-white placeholder-gray-400"
           />
           <button
             type="submit"
-            className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-4 rounded transition-colors"
+            className="w-full bg-white hover:bg-gray-200 cursor-pointer text-black font-semibold py-3 px-4 rounded transition-colors"
           >
             Começar a conversar
           </button>
